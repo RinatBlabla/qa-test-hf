@@ -48,7 +48,7 @@ public class WebTest {
         DriverProvider.getDriver().get(System.getProperty("start.url"));
     }
 
-//    @Test
+    @Test
     public void signInTest() {
 
         reloadBrowser();
@@ -73,7 +73,7 @@ public class WebTest {
                 "Welcome to your account."));
     }
 
-  //  @Test
+    @Test
     public void logInTest() {
 
         reloadBrowser();
