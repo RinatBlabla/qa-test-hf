@@ -1,0 +1,13 @@
+First_Name: Firstname;
+Last_Name: Lastname;
+Company: Company;
+Address1: Qwerty, 123;
+Address2: zxcvb;
+City: Qwerty;
+State: Colorado;
+ZipCode: 12345;
+Country: United States;
+Additional_Info: Qwerty;
+HomePhone: 12345123123;
+MobilePhone: 12345123123;
+Address_Alias: hf;

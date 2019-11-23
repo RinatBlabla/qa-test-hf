@@ -1,0 +1,513 @@
+DEBUG   2019-11-22 17:37:36,833 [main] org.springframework.test.context.junit4.SpringJUnit4ClassRunner  - SpringJUnit4ClassRunner constructor called with [class com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:36,893 [main] org.springframework.test.context.BootstrapUtils  - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+DEBUG   2019-11-22 17:37:36,943 [main] org.springframework.test.context.BootstrapUtils  - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+DEBUG   2019-11-22 17:37:36,994 [main] org.springframework.test.context.BootstrapUtils  - Instantiating TestContextBootstrapper for test class [com.hellofresh.challenge.tests.WebTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+DEBUG   2019-11-22 17:37:37,114 [main] org.springframework.test.context.support.AbstractDelegatingSmartContextLoader  - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@3059cbc declaringClass = 'com.hellofresh.challenge.tests.WebTest', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+DEBUG   2019-11-22 17:37:37,170 [main] org.springframework.test.context.support.ActiveProfilesUtils  - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,172 [main] org.springframework.test.context.support.DefaultTestContextBootstrapper  - @TestExecutionListeners is not present for class [com.hellofresh.challenge.tests.WebTest]: using defaults.
+INFO    2019-11-22 17:37:37,174 [main] org.springframework.test.context.support.DefaultTestContextBootstrapper  - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+INFO    2019-11-22 17:37:37,189 [main] org.springframework.test.context.support.DefaultTestContextBootstrapper  - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+INFO    2019-11-22 17:37:37,190 [main] org.springframework.test.context.support.DefaultTestContextBootstrapper  - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+INFO    2019-11-22 17:37:37,191 [main] org.springframework.test.context.support.DefaultTestContextBootstrapper  - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+INFO    2019-11-22 17:37:37,192 [main] org.springframework.test.context.support.DefaultTestContextBootstrapper  - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@65c7a252, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d154ccd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@229c6181]
+DEBUG   2019-11-22 17:37:37,196 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,197 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,227 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,228 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,231 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,232 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,234 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,234 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,237 [main] org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener  - Before test class: context [DefaultTestContext@4b29d1d2 testClass = WebTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+DEBUG   2019-11-22 17:37:37,239 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,239 [main] org.springframework.test.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hellofresh.challenge.tests.WebTest]
+DEBUG   2019-11-22 17:37:37,300 [main] org.springframework.test.context.support.DependencyInjectionTestExecutionListener  - Performing dependency injection for test context [[DefaultTestContext@4b29d1d2 testClass = WebTest, testInstance = com.hellofresh.challenge.tests.WebTest@6e535154, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+DEBUG   2019-11-22 17:37:37,301 [main] org.springframework.test.context.support.AbstractDelegatingSmartContextLoader  - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+DEBUG   2019-11-22 17:37:37,301 [main] org.springframework.test.context.support.AbstractGenericContextLoader  - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+DEBUG   2019-11-22 17:37:37,506 [main] org.springframework.core.env.StandardEnvironment  - Adding [systemProperties] PropertySource with lowest search precedence
+DEBUG   2019-11-22 17:37:37,507 [main] org.springframework.core.env.StandardEnvironment  - Adding [systemEnvironment] PropertySource with lowest search precedence
+DEBUG   2019-11-22 17:37:37,507 [main] org.springframework.core.env.StandardEnvironment  - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+DEBUG   2019-11-22 17:37:37,507 [main] org.springframework.test.context.support.AnnotationConfigContextLoader  - Registering annotated classes: {class com.hellofresh.challenge.configuration.MainConfiguration}
+INFO    2019-11-22 17:37:37,600 [main] org.springframework.context.support.GenericApplicationContext  - Refreshing org.springframework.context.support.GenericApplicationContext@49b2a47d: startup date [Fri Nov 22 17:37:37 MSK 2019]; root of context hierarchy
+DEBUG   2019-11-22 17:37:37,600 [main] org.springframework.context.support.GenericApplicationContext  - Bean factory for org.springframework.context.support.GenericApplicationContext@49b2a47d: org.springframework.beans.factory.support.DefaultListableBeanFactory@b2c5e07: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,mainConfiguration]; root of factory hierarchy
+DEBUG   2019-11-22 17:37:37,638 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG   2019-11-22 17:37:37,638 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG   2019-11-22 17:37:37,690 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:37,696 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG   2019-11-22 17:37:37,784 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Resolved classpath location [com/hellofresh/challenge/] to resources [URL [file:/C:/Users/Rinat/Desktop/%d0%a0%d0%b0%d0%b1%d0%be%d1%82%d0%b0/%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d1%8b/qa-test-hf/target/test-classes/com/hellofresh/challenge/]]
+DEBUG   2019-11-22 17:37:37,785 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Looking for matching resources in directory tree [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge]
+DEBUG   2019-11-22 17:37:37,785 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,789 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\configuration] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,794 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\driver] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,796 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\enums] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,798 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\objects] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,799 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,802 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\tests] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,803 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Searching directory [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\utils] for files matching pattern [C:/Users/Rinat/Desktop/Работа/проекты/qa-test-hf/target/test-classes/com/hellofresh/challenge/**/*.class]
+DEBUG   2019-11-22 17:37:37,809 [main] org.springframework.core.io.support.PathMatchingResourcePatternResolver  - Resolved location pattern [classpath*:com/hellofresh/challenge/**/*.class] to resources [file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\configuration\JsScripts.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\configuration\MainConfiguration.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\configuration\StringConstants.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\configuration\TimeConstants.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\driver\DriverProvider.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\enums\AccAddressInfoLabelsEnum.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\enums\AccPersonalInfoLabelsEnum.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\enums\ExistingUserDataEnum.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\objects\AccAddressInfo.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\objects\AccPersonalInfo.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\objects\ExistingUserData.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\AbstractPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\AuthenticationPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\BankWirePage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\CategoryPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\MainPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\MyAccountPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\OrderConfirmationPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\OrderPage.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\Pages.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\tests\WebTest.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\utils\InputReader.class], file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\utils\PageUtils.class]]
+DEBUG   2019-11-22 17:37:37,860 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\AuthenticationPage.class]
+DEBUG   2019-11-22 17:37:37,861 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\BankWirePage.class]
+DEBUG   2019-11-22 17:37:37,862 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\CategoryPage.class]
+DEBUG   2019-11-22 17:37:37,862 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\MainPage.class]
+DEBUG   2019-11-22 17:37:37,863 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\MyAccountPage.class]
+DEBUG   2019-11-22 17:37:37,863 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\OrderConfirmationPage.class]
+DEBUG   2019-11-22 17:37:37,864 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\OrderPage.class]
+DEBUG   2019-11-22 17:37:37,865 [main] org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - Identified candidate component class: file [C:\Users\Rinat\Desktop\Работа\проекты\qa-test-hf\target\test-classes\com\hellofresh\challenge\pages\Pages.class]
+DEBUG   2019-11-22 17:37:38,123 [main] org.springframework.context.annotation.ConfigurationClassEnhancer  - Successfully enhanced com.hellofresh.challenge.configuration.MainConfiguration; enhanced class name is: com.hellofresh.challenge.configuration.MainConfiguration$$EnhancerBySpringCGLIB$$1af7e446
+DEBUG   2019-11-22 17:37:38,124 [main] org.springframework.context.annotation.ConfigurationClassPostProcessor  - Replacing bean definition 'mainConfiguration' existing class 'com.hellofresh.challenge.configuration.MainConfiguration' with enhanced class 'com.hellofresh.challenge.configuration.MainConfiguration$$EnhancerBySpringCGLIB$$1af7e446'
+DEBUG   2019-11-22 17:37:38,126 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,126 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,127 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,164 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,164 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,164 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,165 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,169 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,170 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,170 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,179 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,188 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,192 [main] org.springframework.context.support.GenericApplicationContext  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@59a67c3a]
+DEBUG   2019-11-22 17:37:38,198 [main] org.springframework.context.support.GenericApplicationContext  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@514eedd8]
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b2c5e07: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,mainConfiguration,authenticationPage,bankWirePage,categoryPage,mainPage,myAccountPage,orderConfirmationPage,orderPage,pages]; root of factory hierarchy
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+DEBUG   2019-11-22 17:37:38,200 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+DEBUG   2019-11-22 17:37:38,215 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,219 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+DEBUG   2019-11-22 17:37:38,219 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG   2019-11-22 17:37:38,219 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG   2019-11-22 17:37:38,220 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,224 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG   2019-11-22 17:37:38,224 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mainConfiguration'
+DEBUG   2019-11-22 17:37:38,224 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'mainConfiguration'
+DEBUG   2019-11-22 17:37:38,225 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'mainConfiguration' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,229 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'mainConfiguration'
+DEBUG   2019-11-22 17:37:38,229 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'authenticationPage'
+DEBUG   2019-11-22 17:37:38,229 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'authenticationPage'
+DEBUG   2019-11-22 17:37:38,238 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'authenticationPage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,241 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'authenticationPage'
+DEBUG   2019-11-22 17:37:38,242 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'bankWirePage'
+DEBUG   2019-11-22 17:37:38,242 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'bankWirePage'
+DEBUG   2019-11-22 17:37:38,242 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'bankWirePage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,244 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'bankWirePage'
+DEBUG   2019-11-22 17:37:38,244 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'categoryPage'
+DEBUG   2019-11-22 17:37:38,244 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'categoryPage'
+DEBUG   2019-11-22 17:37:38,245 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'categoryPage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,247 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'categoryPage'
+DEBUG   2019-11-22 17:37:38,247 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mainPage'
+DEBUG   2019-11-22 17:37:38,247 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'mainPage'
+DEBUG   2019-11-22 17:37:38,247 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'mainPage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,249 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'mainPage'
+DEBUG   2019-11-22 17:37:38,249 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'myAccountPage'
+DEBUG   2019-11-22 17:37:38,249 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'myAccountPage'
+DEBUG   2019-11-22 17:37:38,250 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'myAccountPage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,252 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'myAccountPage'
+DEBUG   2019-11-22 17:37:38,252 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'orderConfirmationPage'
+DEBUG   2019-11-22 17:37:38,252 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'orderConfirmationPage'
+DEBUG   2019-11-22 17:37:38,252 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'orderConfirmationPage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,255 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'orderConfirmationPage'
+DEBUG   2019-11-22 17:37:38,255 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'orderPage'
+DEBUG   2019-11-22 17:37:38,255 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'orderPage'
+DEBUG   2019-11-22 17:37:38,256 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'orderPage' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,258 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'orderPage'
+DEBUG   2019-11-22 17:37:38,258 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'pages'
+DEBUG   2019-11-22 17:37:38,258 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'pages'
+DEBUG   2019-11-22 17:37:38,263 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.MainPage com.hellofresh.challenge.pages.Pages.mainPage
+DEBUG   2019-11-22 17:37:38,263 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.AuthenticationPage com.hellofresh.challenge.pages.Pages.authenticationPage
+DEBUG   2019-11-22 17:37:38,263 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.MyAccountPage com.hellofresh.challenge.pages.Pages.myAccountPage
+DEBUG   2019-11-22 17:37:38,264 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.CategoryPage com.hellofresh.challenge.pages.Pages.categoryPage
+DEBUG   2019-11-22 17:37:38,264 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.OrderPage com.hellofresh.challenge.pages.Pages.orderPage
+DEBUG   2019-11-22 17:37:38,264 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.BankWirePage com.hellofresh.challenge.pages.Pages.bankWirePage
+DEBUG   2019-11-22 17:37:38,264 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Registered injected element on class [com.hellofresh.challenge.pages.Pages]: AutowiredFieldElement for com.hellofresh.challenge.pages.OrderConfirmationPage com.hellofresh.challenge.pages.Pages.orderConfirmationPage
+DEBUG   2019-11-22 17:37:38,264 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'pages' to allow for resolving potential circular references
+DEBUG   2019-11-22 17:37:38,266 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.MainPage com.hellofresh.challenge.pages.Pages.mainPage
+DEBUG   2019-11-22 17:37:38,275 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'mainPage'
+DEBUG   2019-11-22 17:37:38,275 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'mainPage'
+DEBUG   2019-11-22 17:37:38,275 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.AuthenticationPage com.hellofresh.challenge.pages.Pages.authenticationPage
+DEBUG   2019-11-22 17:37:38,276 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'authenticationPage'
+DEBUG   2019-11-22 17:37:38,276 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'authenticationPage'
+DEBUG   2019-11-22 17:37:38,276 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.MyAccountPage com.hellofresh.challenge.pages.Pages.myAccountPage
+DEBUG   2019-11-22 17:37:38,276 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'myAccountPage'
+DEBUG   2019-11-22 17:37:38,276 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'myAccountPage'
+DEBUG   2019-11-22 17:37:38,276 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.CategoryPage com.hellofresh.challenge.pages.Pages.categoryPage
+DEBUG   2019-11-22 17:37:38,277 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'categoryPage'
+DEBUG   2019-11-22 17:37:38,277 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'categoryPage'
+DEBUG   2019-11-22 17:37:38,277 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.OrderPage com.hellofresh.challenge.pages.Pages.orderPage
+DEBUG   2019-11-22 17:37:38,278 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'orderPage'
+DEBUG   2019-11-22 17:37:38,278 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'orderPage'
+DEBUG   2019-11-22 17:37:38,278 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.BankWirePage com.hellofresh.challenge.pages.Pages.bankWirePage
+DEBUG   2019-11-22 17:37:38,278 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'bankWirePage'
+DEBUG   2019-11-22 17:37:38,278 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'bankWirePage'
+DEBUG   2019-11-22 17:37:38,278 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'pages': AutowiredFieldElement for com.hellofresh.challenge.pages.OrderConfirmationPage com.hellofresh.challenge.pages.Pages.orderConfirmationPage
+DEBUG   2019-11-22 17:37:38,279 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'orderConfirmationPage'
+DEBUG   2019-11-22 17:37:38,279 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'pages' to bean named 'orderConfirmationPage'
+DEBUG   2019-11-22 17:37:38,280 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'pages'
+DEBUG   2019-11-22 17:37:38,280 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+DEBUG   2019-11-22 17:37:38,310 [main] org.springframework.context.support.GenericApplicationContext  - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@70e659aa]
+DEBUG   2019-11-22 17:37:38,310 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG   2019-11-22 17:37:38,316 [main] org.springframework.core.env.PropertySourcesPropertyResolver  - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+DEBUG   2019-11-22 17:37:38,322 [main] org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate  - Storing ApplicationContext in cache under key [[MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+DEBUG   2019-11-22 17:37:38,323 [main] org.springframework.test.context.cache  - Spring test ApplicationContext cache statistics: [DefaultContextCache@77b7ffa4 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+DEBUG   2019-11-22 17:37:38,325 [main] org.springframework.beans.factory.annotation.InjectionMetadata  - Processing injected element of bean 'com.hellofresh.challenge.tests.WebTest': AutowiredFieldElement for com.hellofresh.challenge.pages.Pages com.hellofresh.challenge.tests.WebTest.pages
+DEBUG   2019-11-22 17:37:38,325 [main] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'pages'
+DEBUG   2019-11-22 17:37:38,325 [main] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - Autowiring by type from bean name 'com.hellofresh.challenge.tests.WebTest' to bean named 'pages'
+DEBUG   2019-11-22 17:37:38,339 [main] org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener  - Before test method: context [DefaultTestContext@4b29d1d2 testClass = WebTest, testInstance = com.hellofresh.challenge.tests.WebTest@6e535154, testMethod = checkoutTest@WebTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+INFO    2019-11-22 17:37:38,340 [main] com.hellofresh.challenge.tests.WebTest  - ========================== 	@BeforeSuite  ================
+DEBUG   2019-11-22 17:37:38,345 [main] com.hellofresh.challenge.driver.DriverProvider  - Test will be executed with chrome browser
+INFO    2019-11-22 17:37:43,024 [main] com.hellofresh.challenge.tests.WebTest  - ========================== 	@BeforeMethod  ================
+DEBUG   2019-11-22 17:37:43,049 [main] com.hellofresh.challenge.tests.WebTest  - Start url: http://automationpractice.com/index.php
+DEBUG   2019-11-22 17:37:46,671 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:46,822 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433466822
+DEBUG   2019-11-22 17:37:46,822 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:46,863 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433466863
+DEBUG   2019-11-22 17:37:46,876 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = a
+DEBUG   2019-11-22 17:37:48,393 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:48,477 [main] com.hellofresh.challenge.utils.InputReader  - true
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - true
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - true
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - true
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - key: email
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - value:  hf_challenge_123456@hf123456.com
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - outputMap: {email=hf_challenge_123456@hf123456.com}
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - key: 
+password
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - value:  12345678
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - outputMap: {password=12345678, email=hf_challenge_123456@hf123456.com}
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - key: 
+first_name
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - value:  Joe
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - outputMap: {password=12345678, first_name=Joe, email=hf_challenge_123456@hf123456.com}
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - key: 
+last_name
+DEBUG   2019-11-22 17:37:48,478 [main] com.hellofresh.challenge.utils.InputReader  - value:  Black
+DEBUG   2019-11-22 17:37:48,479 [main] com.hellofresh.challenge.utils.InputReader  - outputMap: {password=12345678, last_name=Black, first_name=Joe, email=hf_challenge_123456@hf123456.com}
+DEBUG   2019-11-22 17:37:48,479 [main] com.hellofresh.challenge.utils.InputReader  - Read string = 
+INFO    2019-11-22 17:37:48,479 [main] com.hellofresh.challenge.utils.InputReader  - Final value of outputMap: {password=12345678, last_name=Black, first_name=Joe, email=hf_challenge_123456@hf123456.com}
+DEBUG   2019-11-22 17:37:48,500 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433468500
+DEBUG   2019-11-22 17:37:48,501 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:48,547 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433468547
+DEBUG   2019-11-22 17:37:48,560 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = input
+DEBUG   2019-11-22 17:37:48,846 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433468846
+DEBUG   2019-11-22 17:37:48,846 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:48,887 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433468887
+DEBUG   2019-11-22 17:37:48,900 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = input
+DEBUG   2019-11-22 17:37:49,056 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433469056
+DEBUG   2019-11-22 17:37:49,056 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:49,110 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433469110
+DEBUG   2019-11-22 17:37:49,127 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = button
+DEBUG   2019-11-22 17:37:50,378 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:50,682 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433470682
+DEBUG   2019-11-22 17:37:50,682 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:50,725 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433470725
+DEBUG   2019-11-22 17:37:50,737 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = a
+DEBUG   2019-11-22 17:37:53,002 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:53,011 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:53,063 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:53,122 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433473122
+DEBUG   2019-11-22 17:37:53,122 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:53,165 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433473165
+DEBUG   2019-11-22 17:37:53,188 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = div
+DEBUG   2019-11-22 17:37:53,395 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:53,404 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:53,450 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:53,507 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:53,535 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:53,670 [main] com.hellofresh.challenge.utils.PageUtils  - currentFrame: ; input frame: fancybox-frame1574433473353
+DEBUG   2019-11-22 17:37:54,221 [main] com.hellofresh.challenge.utils.PageUtils  - currentFrame: fancybox-frame1574433473353; input frame: fancybox-frame1574433473353
+DEBUG   2019-11-22 17:37:54,758 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:54,775 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:54,808 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:54,826 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433474826
+DEBUG   2019-11-22 17:37:54,826 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:54,888 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433474888
+DEBUG   2019-11-22 17:37:54,900 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = button
+INFO    2019-11-22 17:37:55,203 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#page"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=id, value=page}
+INFO    2019-11-22 17:37:55,736 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#page"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=id, value=page}
+DEBUG   2019-11-22 17:37:56,247 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:37:56,257 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:37:56,298 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+INFO    2019-11-22 17:37:56,339 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:37:56,878 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:37:57,391 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:37:57,907 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:37:58,442 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:37:58,958 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:37:59,506 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:00,019 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:00,549 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:01,064 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:01,604 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:02,119 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:02,654 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:03,168 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:03,684 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:04,217 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:04,747 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:05,284 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:05,820 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+INFO    2019-11-22 17:38:06,342 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWaitForElementToBeInvisible: element is not attached due to org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='add_to_cart']"}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Rinat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de22030bf65ba5b828e82b4d298e5436
+*** Element info: {Using=xpath, value=//*[@id='add_to_cart']}
+ERROR   2019-11-22 17:38:06,343 [main] com.hellofresh.challenge.utils.PageUtils  - fluentWait error message: Expected condition failed: waiting for com.hellofresh.challenge.utils.PageUtils$$Lambda$143/2105078741@f1868c9 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-IAE47F2V', ip: '192.168.199.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+DEBUG   2019-11-22 17:38:06,367 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:38:06,381 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433486381
+DEBUG   2019-11-22 17:38:06,381 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:06,431 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433486431
+DEBUG   2019-11-22 17:38:06,444 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = a
+DEBUG   2019-11-22 17:38:07,900 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:38:07,917 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:07,970 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:38:08,016 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433488016
+DEBUG   2019-11-22 17:38:08,017 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:08,053 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433488053
+DEBUG   2019-11-22 17:38:08,063 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = a
+DEBUG   2019-11-22 17:38:09,100 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433489100
+DEBUG   2019-11-22 17:38:09,100 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:09,143 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433489143
+DEBUG   2019-11-22 17:38:09,154 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = button
+DEBUG   2019-11-22 17:38:10,066 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433490066
+DEBUG   2019-11-22 17:38:10,066 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:10,105 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433490105
+DEBUG   2019-11-22 17:38:10,117 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = div
+DEBUG   2019-11-22 17:38:10,201 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433490201
+DEBUG   2019-11-22 17:38:10,201 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:10,247 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433490247
+DEBUG   2019-11-22 17:38:10,257 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = button
+DEBUG   2019-11-22 17:38:11,401 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433491401
+DEBUG   2019-11-22 17:38:11,401 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:11,442 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433491442
+DEBUG   2019-11-22 17:38:11,455 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = a
+DEBUG   2019-11-22 17:38:12,438 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:38:12,451 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:12,501 [main] com.hellofresh.challenge.utils.PageUtils  - In true
+
+DEBUG   2019-11-22 17:38:12,545 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.before wait = 1574433492545
+DEBUG   2019-11-22 17:38:12,545 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+DEBUG   2019-11-22 17:38:12,581 [main] com.hellofresh.challenge.utils.PageUtils  - clickIfEnabled.after wait = 1574433492581
+DEBUG   2019-11-22 17:38:12,592 [main] com.hellofresh.challenge.utils.PageUtils  - element tag = button
+DEBUG   2019-11-22 17:38:14,548 [main] com.hellofresh.challenge.utils.PageUtils  - In fluentWait
+
+INFO    2019-11-22 17:38:15,641 [main] com.hellofresh.challenge.tests.WebTest  - ========================== 	@AfterSuite  ================
+DEBUG   2019-11-22 17:38:15,642 [main] org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener  - After test method: context [DefaultTestContext@4b29d1d2 testClass = WebTest, testInstance = com.hellofresh.challenge.tests.WebTest@6e535154, testMethod = checkoutTest@WebTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+DEBUG   2019-11-22 17:38:15,643 [main] org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener  - After test class: context [DefaultTestContext@4b29d1d2 testClass = WebTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7f485fda testClass = WebTest, locations = '{}', classes = '{class com.hellofresh.challenge.configuration.MainConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+INFO    2019-11-22 17:38:15,644 [Thread-1] org.springframework.context.support.GenericApplicationContext  - Closing org.springframework.context.support.GenericApplicationContext@49b2a47d: startup date [Fri Nov 22 17:37:37 MSK 2019]; root of context hierarchy
+DEBUG   2019-11-22 17:38:15,645 [Thread-1] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG   2019-11-22 17:38:15,645 [Thread-1] org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b2c5e07: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,mainConfiguration,authenticationPage,bankWirePage,categoryPage,mainPage,myAccountPage,orderConfirmationPage,orderPage,pages]; root of factory hierarchy

@@ -1,0 +1,6 @@
+First_Name: Firstname;
+Last_Name: Lastname;
+Password: Qwerty;
+Day_Of_Birth: 1;
+Month_Of_Birth: January;
+Year_Of_Birth: 2000;
