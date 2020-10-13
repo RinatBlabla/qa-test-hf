@@ -7,7 +7,7 @@
   <name>web-test</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <selenium.version>3.11.0</selenium.version>
     <log4j.version>1.2.17</log4j.version>
     <allure-junit4.version>2.6.0</allure-junit4.version>
